@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PETOOL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MAIN.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\MAIN.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5BF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PETOOL.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\BOUND.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\DIRECTORY.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\EXPORT.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\IMPORT.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PE.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PEDEAL.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PERESOURCE.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PETOOL.cpp"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\RELOCATION.CPP"
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\SECTION.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5BF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5C0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PETOOL.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5C0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5C1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PETOOL.pdb" /machine:I386 /out:"Release/PETOOL.exe" 
+".\Release\BOUND.OBJ"
+".\Release\DIRECTORY.OBJ"
+".\Release\EXPORT.OBJ"
+".\Release\IMPORT.OBJ"
+".\Release\PE.OBJ"
+".\Release\PEDEAL.OBJ"
+".\Release\PERESOURCE.OBJ"
+".\Release\PETOOL.obj"
+".\Release\RELOCATION.OBJ"
+".\Release\SECTION.OBJ"
+".\Release\StdAfx.obj"
+".\Release\MAIN.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5C1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BOUND.CPP
+DIRECTORY.CPP
+EXPORT.CPP
+IMPORT.CPP
+PE.CPP
+PEDEAL.CPP
+PERESOURCE.CPP
+PETOOL.cpp
+C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PETOOL.cpp(34) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PETOOL.cpp(39) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PETOOL.cpp(51) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\Administrator\桌面\VC6\MyProjects\PETOOL\PETOOL.cpp(93) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+RELOCATION.CPP
+SECTION.CPP
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PETOOL.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
